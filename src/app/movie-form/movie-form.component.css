@@ -1,0 +1,72 @@
+body{
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+  }
+
+h1{
+    color:rgb(23, 130, 201);
+    font-family: "Trebuchet MS", cursive, sans-serif;
+    font-size: 80px;
+}
+
+h2{
+    color:rgb(125, 105, 173);
+    font-family: "Trebuchet MS", cursive, sans-serif;
+    font-size: 30px;
+}
+
+h4{
+    color:rgb(95, 44, 214);
+    font-family: "Trebuchet MS", cursive, sans-serif;
+    font-size: 600%;
+}
+
+h5{
+    color:rgb(121, 100, 179);
+    font-family: "Trebuchet MS", cursive, sans-serif;
+    font-size: 200%;
+}
+
+h6{
+    color:rgb(194, 143, 77);
+    font-family: "Trebuchet MS", cursive, sans-serif;
+    font-size: 200%;
+}
+
+div.poster {
+    position: relative;
+    width: 100px;
+    left: 50px;
+    top: 0px;
+    transform: translateY(-15%);
+    border: 3px ; 
+  } 
+  
+div.text {
+    position: relative;
+    left: 53%;
+    width: 500px;
+    height: 100px;
+    top: 50%;
+    transform: translateY(50%);
+    border: 3px ; 
+ }
+
+
+.bottom{
+    position: absolute;
+    left: 50%;
+    bottom: 75px;
+    font-size: 18px;
+}
+
+.searchbar input[type=text] {
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 60px;
+  }
+
